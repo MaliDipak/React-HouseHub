@@ -1,0 +1,93 @@
+.home-cat {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  padding: 0;
+  margin: 0;
+  background: url("/public/assets/homebg.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.home-cat h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  color: #2e2b63;
+}
+
+/* // image container for category */
+.Imagecontainer {
+  position: relative;
+}
+
+.Imagecontainer img {
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  /* border-radius: 30px/10px !important; horizontal radius / vertical radius */
+  border-radius: 50px;
+  margin: 10px;
+}
+.Imagecontainer img:hover {
+  box-shadow: rgba(186, 73, 73, 0.35) 0px 5px 20px !important;
+}
+
+.Imagecontainer .btn {
+  position: absolute;
+  top: 80%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 40px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+
+  text-align: center;
+}
+
+.Imagecontainer .btn:hover {
+  background-color: black;
+}
+
+/* // image container for category */
+
+.category-link a {
+  text-decoration: none !important;
+  color: black;
+  line-height: normal;
+}
+
+/* media quer */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home-cat h1 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .home-cat {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    padding: 0;
+    margin: 0;
+    background: url("/public/assets/back.jpeg") no-repeat;
+    background-size: 100% 50%;
+  }
+}
+
+/* ======= */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Imagecontainer img {
+    margin-top: 3rem !important;
+  }
+  .Imagecontainer .btn {
+    position: absolute;
+    top: 80%;
+    left: 26%;
+
+    font-size: 30px;
+  }
+}

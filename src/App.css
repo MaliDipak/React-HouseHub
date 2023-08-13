@@ -1,0 +1,44 @@
+body {
+  background: url("/public/assets/bg.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.auth-form {
+  width: 400px;
+}
+
+.auth-form input {
+  font-size: 16px;
+}
+
+.auth-form .pass-toggle {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#profile-card {
+  width: 30rem;
+}
+
+#profile-card #edit-save-icon {
+  cursor: pointer;
+}
+
+/*Profile page > Listing Category > Category component*/
+.category-link a {
+  text-decoration: none;
+  color: black;
+  line-height: normal;
+}
+
+/*add home from profile*/
+.add-home {
+  text-decoration: none;
+  color: green;
+  padding-left: 30%;
+}
+.add-home:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+/*add home from profile*/

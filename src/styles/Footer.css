@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.footer {
+  background: #2e2b63 !important;
+  background: linear-gradient(90deg, #504c8b 0%, #de82a7 100%) !important;
+}
+.footer h3 {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer p {
+  background-color: #fff !important;
+  border-radius: 50%;
+  padding: 5px;
+}
+.footer p:hover {
+  background-color: rgb(222, 130, 167) !important;
+  padding: 2px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+h6 {
+  margin-bottom: 20px;
+  color: #ffffff86;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .footer h3 {
+    font-size: 1rem !important;
+  }
+  .footer-gif {
+    height: 40px !important;
+    width: 40px !important;
+  }
+}
